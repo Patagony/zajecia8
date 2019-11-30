@@ -1,6 +1,5 @@
 package com.company;
 
-import javax.sound.midi.SysexMessage;
 import java.util.Scanner;
 
 public class Main {
@@ -10,12 +9,12 @@ public class Main {
         //wyswietl();
         figury();
 
-        double a = 0;
-        double b = 1;
-        double c = 2;
-        double d = 3;
-        System.out.println("NAPIS");
-        System.out.println("ZMIENNE");
+//        double a = 0;
+//        double b = 1;
+//        double c = 2;
+//        double d = 3;
+//        System.out.println("NAPIS");
+//        System.out.println("ZMIENNE");
     }
 
     static void figury() {
