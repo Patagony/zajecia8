@@ -1,5 +1,6 @@
 package com.company;
 
+import javax.sound.midi.SysexMessage;
 import java.util.Scanner;
 
 public class Main {
@@ -32,5 +33,10 @@ public class Main {
             wzrost = scanner.nextInt();
             System.out.print("Adres: ");
             address = scanner.next();
+
+            System.out.println(nazwisko);
+            System.out.println(imie);
+            System.out.println(wzrost);
+            System.out.println(address);
         }
 }
