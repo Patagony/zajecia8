@@ -7,7 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        wyswietl();
+        //wyswietl();
+        figury();
 
         double a = 0;
         double b = 1;
@@ -17,26 +18,37 @@ public class Main {
         System.out.println("ZMIENNE");
     }
 
-        static void wyswietl() {
+    static void figury() {
 
-            String nazwisko;
-            String imie;
-            int wzrost;
-            String address;
-
-            Scanner scanner = new Scanner(System.in);
-            System.out.print("Nazwisko: ");
-            nazwisko = scanner.next();
-            System.out.print("Imie: ");
-            imie = scanner.next();
-            System.out.print("Wzrost: ");
-            wzrost = scanner.nextInt();
-            System.out.print("Adres: ");
-            address = scanner.next();
-
-            System.out.println(nazwisko);
-            System.out.println(imie);
-            System.out.println(wzrost);
-            System.out.println(address);
+        for (int i = 0; i < 10; i++) {
+            for (int a = 0; a < 10; a++)
+                System.out.print("*");
+            System.out.println("");
         }
+
+    }
+
+    static void wyswietl() {
+
+        String nazwisko;
+        String imie;
+        int wzrost;
+        String address;
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nazwisko: ");
+        nazwisko = scanner.next();
+        System.out.print("Imie: ");
+        imie = scanner.next();
+        System.out.print("Wzrost: ");
+        wzrost = scanner.nextInt();
+        System.out.print("Adres: ");
+        address = scanner.next();
+
+        System.out.println(nazwisko);
+        System.out.println(imie);
+        System.out.println(wzrost);
+        System.out.println(address);
+
+    }
 }
