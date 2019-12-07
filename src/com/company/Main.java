@@ -6,22 +6,22 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //wyswietl();
+        wyswietl();
         figury();
 
-//        double a = 0;
-//        double b = 1;
-//        double c = 2;
-//        double d = 3;
-//        System.out.println("NAPIS");
-//        System.out.println("ZMIENNE");
+        double a = 0;
+        double b = 1;
+        double c = 2;
+        double d = 3;
+        System.out.println("NAPIS");
+        System.out.println("ZMIENNE");
     }
 
     static void figury() {
 
         for (int i = 0; i < 10; i++) {
             for (int a = 0; a < 10; a++)
-                System.out.print("*");
+                System.out.print("X");
             System.out.println("");
         }
 
